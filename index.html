@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="estilos.css" rel="stylesheet">
+    <title>Foro 14.1</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="barra-navegacion">
+        <div class="container">
+          <a class="navbar-brand" href="#" id="contenido">LOREM IPSUM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" id="contenido">Dolor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="contenido-opaco">Sit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="contenido-opaco">Amet</a>
+              </li>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <li class="nav-item dropdown d-md-none d-sm-none ">
+                <a class="nav-link dropdown-toggle d-md-none d-sm-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="contenido-opaco">
+                  Opciones
+                </a>
+                <ul class="dropdown-menu d-md-none d-sm-none"> <!--Indica que solo se ve en tamaño SM Y MD-->
+                  <li><a class="dropdown-item d-md-none d-sm-none" href="#">Opción 1</a></li>
+                  <li><a class="dropdown-item d-md-none d-sm-none" href="#">Opción 2</a></li>
+                  <li><a class="dropdown-item d-md-none d-sm-none" href="#">Opción 3</a></li>
+                  <li><a class="dropdown-item d-md-none d-sm-none" href="#">Opción 4</a></li>
+                </ul>
+              </li>
+              </div>
+            </ul>
+          </div>
+          <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </nav>
+    <h3 id="titulo">Lorem ipsum...</h3>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000"> <!-- Para que el carrusel cambie cada 2 segundos -->
+        <div class="carousel-inner" id="subtitulo"> <!--Para darle estilo-->
+          <div class="carousel-item active">
+            <h4>... dolor sit amet, consectetur adipiscing elit.</h4>
+          </div>
+          <div class="carousel-item">
+            <h4>... Donec tempor at tortor sit amet molestie.</h4>
+          </div>
+          <div class="carousel-item">
+            <h4>...  Aliquam vitae eros nec augue sollicitudin lobortis.</h4>
+          </div>
+        </div>
+    </div>
+
+    <div class="container text-left">
+      <div class="row">
+        <div class="col-lg-3 d-lg-block d-none" id="opciones"> <!--Indica que solo se ve en tamaño LG-->
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#">Opción 1</a></li>
+            <li class="list-group-item"><a href="#">Opción 2</a></li>
+            <li class="list-group-item"><a href="#">Opción 3</a></li>
+            <li class="list-group-item"><a href="#">Opción 4</a></li>
+          </ul>
+        </div>
+        <!--Columnas-->
+        <div class="col">Pellentesque sed nisl vel eros gravida laoreet. Etiam sit amet tortor metus. Donec id efficitur felis, vel efficitur velit. Etiam ut dolor ornare, auctor ante id, tincidunt erat. Duis placerat urna vitae dolor varius porttitor. Nulla a iaculis augue, vitae accumsan enim. Praesent quis porta tellus. Cras accumsan, dolor ac convallis ultricies, odio mauris mattis sapien, at ornare leo neque non metus. Donec in velit non tortor ornare bibendum nec vel magna. Ut quis tincidunt odio, vitae ullamcorper nunc. Vestibulum id lobortis mi, at tempus risus. Mauris a eros a nulla viverra sagittis vitae in metus. Donec sit amet enim aliquet, pellentesque urna eu, faucibus eros. Sed luctus pretium eros, sit amet commodo leo facilisis ac.</div>
+        <div class="col">Sed sed metus sit amet risus volutpat laoreet quis id nisi. Vivamus nec semper urna. Nam quis lacinia lacus. Nulla dapibus mauris eget neque sollicitudin ornare eu vel sem. Aenean id nibh dolor. Cras efficitur blandit justo id feugiat. Maecenas gravida sapien ut urna eleifend semper vitae in lectus. Sed tempus porttitor augue, quis hendrerit ante volutpat sollicitudin. </div>
+        <div class="col">Nulla vel justo porttitor, finibus neque at, vulputate nisl. Aenean fringilla, enim id gravida malesuada, neque felis facilisis ipsum, eget aliquam diam velit eget nibh. Vivamus tincidunt accumsan neque vel tempor. Etiam turpis nunc, sodales a nulla ut, blandit sodales mauris. Nullam sodales sit amet erat et tincidunt.</div>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
